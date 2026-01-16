@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Style Match Lens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Style Match Lens</h1>
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Take a photo of your outfit</h2>
+
+ <input
+  type="file"
+  id="cameraInput"
+  accept="image/*"
+  capture="user"
+/>
+
+  <div id="previewBox">
+    <img id="previewImage">
+  </div>
+  <button id="analyzeBtn">Find Similar Styles</button>
+<p id="status"></p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
